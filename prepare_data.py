@@ -4,7 +4,7 @@ import cv2
 
 # raw_data_path: directory where the downloaded images are
 # save_path: directory where the numpy images will be
-raw_data_path = "data/raw_data/cars_train"
+raw_data_path = "data/raw_data/coast"
 save_path = "data/prepared_data/"
 
 files = os.listdir(raw_data_path)
@@ -37,9 +37,9 @@ for i, file in enumerate(files, 1):
 		print("error: ", e)
 		print("file name: ", image_path)
 
+	print("Proccessed: %s / %s image" %(i, len(files)))
+
 	if len(bulk) >= batch or i == len(files):
-		print("Dumping batch: ", batch)
+		print("Dumping batch: ", len(bulk))
 		dumpy_numpy(bulk)
 		bulk = []
-
-	print("Proccessed: %s / %s image" %(i, len(files)))

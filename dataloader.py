@@ -3,7 +3,8 @@ import os
 from random import shuffle
 
 
-DATA_PATH = "data/prepared_data"
+DATA_PATH = "data/prepared_data/"
+# DATA_PATH = "data/temp1/"
 
 
 class Data():
@@ -20,6 +21,7 @@ class Data():
 		self.X = []
 		for data in datas:
 			self.X.append(data)
+		shuffle(self.X)
 		self.X = np.asarray(self.X)
 		self.file_counter += 1
 
