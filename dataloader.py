@@ -4,7 +4,6 @@ from random import shuffle
 
 
 DATA_PATH = "data/prepared_data/"
-# DATA_PATH = "data/temp1/"
 
 
 class Data():
@@ -13,6 +12,7 @@ class Data():
 		self.X_counter = 0
 		self.file_counter = 0
 		self.files = os.listdir(DATA_PATH)
+		self.files = [file for file in self.files if '.npy' in file]
 		shuffle(self.files)
 		self._load_data()
 
