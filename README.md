@@ -20,6 +20,7 @@ The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zi
   - keras-contrib==2.0.8
   - tensorflow==1.5.0
   - opencv-python==3.4.0.12
+  - Pillow==5.0.0
   - CUDA Version 9.0.176
 
 ## Get Started
