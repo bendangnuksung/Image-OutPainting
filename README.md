@@ -10,6 +10,7 @@ Some changes have been made to work with 256*256 image:
 ## Results
 The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zip)  for 200 epochs.
 ![Demo](https://i.imgur.com/lmhhIqv.png)
+<br/>
 **RECURSIVE**
 ![Demo](https://i.imgur.com/RCp4Wzc.png)
 
