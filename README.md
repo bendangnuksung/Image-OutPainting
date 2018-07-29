@@ -1,7 +1,7 @@
 # Keras implementation of Image OutPainting
 
 This is an implementation of [Painting Outside the Box: Image Outpainting](https://cs230.stanford.edu/projects_spring_2018/posters/8265861.pdf) paper from Standford University. 
-Some changes have been made to work with 256*256:
+Some changes have been made to work with 256*256 image:
   - Added Identity loss i.e from generated image to the original image
   - Removed patches from training data. (training pipeline)
   - Replaced masking with cropping. (training pipeline)
@@ -9,6 +9,9 @@ Some changes have been made to work with 256*256:
 
 ## Results
 The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zip)  for 200 epochs.
+![Demo](https://i.imgur.com/lmhhIqv.png)
+**RECURSIVE**
+![Demo](https://i.imgur.com/RCp4Wzc.png)
 
 ## Tested with
   - python 3.5
