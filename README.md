@@ -28,7 +28,7 @@ The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zi
       ```sh
       # Downloads the beach data and converts to numpy batch data
       # saves the Numpy batch data to 'data/prepared_data/'
-      python3 prepare_data.py
+      sh prepare_data.sh
       ```
 2. Build Model
     * To build Model from scratch you can directly run 'outpaint.ipynb'
