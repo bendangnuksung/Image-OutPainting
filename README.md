@@ -23,15 +23,15 @@ The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zi
 
 ## Get Started
 1. Prepare Data:
-  ```sh
-  # Downloads the beach data and converts to numpy batch data
-  # saves the Numpy batch data to 'data/prepared_data/'
-  python3 prepare_data.py
-  ```
+      ```sh
+      # Downloads the beach data and converts to numpy batch data
+      # saves the Numpy batch data to 'data/prepared_data/'
+      python3 prepare_data.py
+      ```
 2. Build Model
-  * To build Model from scratch you can directly run 'outpaint.ipynb'
+    * To build Model from scratch you can directly run 'outpaint.ipynb'
   <br/>OR<br/>
-  * You can [Download](https://drive.google.com/file/d/1548iAtsNf3wLSc1i5zYy-HX8_TW95wi_/view?usp=sharing) my trained model and move it to 'checkpoint/' and run it.
+    * You can [Download](https://drive.google.com/file/d/1548iAtsNf3wLSc1i5zYy-HX8_TW95wi_/view?usp=sharing) my trained model and move it to 'checkpoint/' and run it.
 
 ## References
 * [Painting Outside the Box: Image Outpainting](https://cs230.stanford.edu/projects_spring_2018/posters/8265861.pdf)
