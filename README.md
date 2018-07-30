@@ -16,7 +16,7 @@ The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zi
 
 ## Tested with
   - python 3.5
-  - keras==2.1.5
+  - keras==2.2.0
   - keras-contrib==2.0.8
   - tensorflow==1.5.0
   - opencv-python==3.4.0.12
