@@ -3,8 +3,8 @@ import os
 from random import shuffle
 
 
-DATA_PATH = "data/prepared_data/train_data"
-TEST_PATH = "data/prepared_data/test_data"
+DATA_PATH = "data/prepared_data/train"
+TEST_PATH = "data/prepared_data/test"
 
 
 class Data():
