@@ -8,22 +8,17 @@ Some changes have been made to work with 256*256 image:
   - Added convolution layers.
 
 ## Results
-The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zip)  for 200 epochs.
-![Demo](https://i.imgur.com/lmhhIqv.png)
+The model was train with [scrapped beach data](https://drive.google.com/open?id=1hKIn-Z8Uf3voESbJZVsapLHESPabjjrb)  for 25 epochs.
+![Demo](https://i.imgur.com/ZHtoeDF.jpg)
 
 #### Recursive painting
-![Demo](https://i.imgur.com/RCp4Wzc.png)
+![Demo](http://i.imgur.com/pDUpzcY.jpg)
 
-## Tested with
-  - python 3.5
-  - keras==2.2.0
-  - keras-contrib==2.0.8
-  - tensorflow==1.5.0
-  - opencv-python==3.4.0.12
-  - Pillow==5.0.0
-  - CUDA Version 9.0.176
+### Install Requirements
+sudo pip3 install -r requirements.txt
 
 ## Get Started
+
 1. Prepare Data:
       ```sh
       # Downloads the beach data and converts to numpy batch data
@@ -33,7 +28,7 @@ The model was train with [beach data](http://cvcl.mit.edu/scenedatabase/coast.zi
 2. Build Model
     * To build Model from scratch you can directly run 'outpaint.ipynb'
   <br/>OR<br/>
-    * You can [Download](https://drive.google.com/file/d/1548iAtsNf3wLSc1i5zYy-HX8_TW95wi_/view?usp=sharing) my trained model and move it to 'checkpoint/' and run it.
+    * You can [Download](https://drive.google.com/open?id=1MfXsRwjx5CTRGBoLx154S0h-Q3rIUNH0) my trained model and move it to 'checkpoint/' and run it.
 
 ## References
 * [Painting Outside the Box: Image Outpainting](https://cs230.stanford.edu/projects_spring_2018/posters/8265861.pdf)
