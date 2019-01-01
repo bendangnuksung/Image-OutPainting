@@ -15,7 +15,9 @@ The model was train with [scrapped beach data](https://drive.google.com/open?id=
 ![Demo](http://i.imgur.com/pDUpzcY.jpg)
 
 ### Install Requirements
+```
 sudo pip3 install -r requirements.txt
+```
 
 ## Get Started
 
