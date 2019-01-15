@@ -8,7 +8,7 @@ Some changes have been made to work with 256*256 image:
   - Added convolution layers.
 
 ## Results
-The model was train with [scrapped beach data](https://drive.google.com/open?id=1hKIn-Z8Uf3voESbJZVsapLHESPabjjrb)  for 25 epochs.
+The model was train with [3500 scrapped beach data](https://drive.google.com/open?id=1hKIn-Z8Uf3voESbJZVsapLHESPabjjrb) with agumentation totalling upto 10500 images for 25 epochs.
 ![Demo](https://i.imgur.com/ZHtoeDF.jpg)
 
 #### Recursive painting
