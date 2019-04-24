@@ -16,6 +16,7 @@ The model was train with [3500 scrapped beach data](https://drive.google.com/ope
 
 ### Install Requirements
 ```
+sudo apt-get install curl
 sudo pip3 install -r requirements.txt
 ```
 
