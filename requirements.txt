@@ -5,7 +5,7 @@ matplotlib==3.0.2
 scikit-image==0.14.1
 imageio==2.4.1
 Shapely
-opencv-python==3.4.3.18
+opencv-python==4.2.0.32
 Pillow==6.2.0
 imgaug==0.2.6
 tensorflow-gpu==1.10.0
