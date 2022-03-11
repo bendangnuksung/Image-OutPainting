@@ -6,7 +6,7 @@ scikit-image==0.14.1
 imageio==2.4.1
 Shapely
 opencv-python==3.4.3.18
-Pillow==6.2.0
+Pillow==9.0.1
 imgaug==0.2.6
 tensorflow-gpu==1.10.0
 keras==2.2.4
