@@ -8,6 +8,6 @@ Shapely
 opencv-python==3.4.3.18
 Pillow==6.2.0
 imgaug==0.2.6
-tensorflow-gpu==1.10.0
+tensorflow-gpu==2.7.2
 keras==2.2.4
 git+https://www.github.com/keras-team/keras-contrib.git
